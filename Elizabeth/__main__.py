@@ -39,25 +39,25 @@ from Elizabeth.modules.helper_funcs.alternate import typing_action
 
 
 PM_START_TEXT = f"""
-`Hi..Welcome` 👀
-`I'm` [ELIZABETH](https://telegra.ph/file/fcbd6c6c16134b806bfe8.jpg)
+`Hi..Welcome` 🎻
+`I'm`👸 [ELIZABETH](https://telegra.ph/file/5fa80aa6bfdcab178ae47.jpg)
 `I'm here to help you manage your groups.. Click Help button to find out more about how to use me to my full potential..`
 """
 
-buttons = [[InlineKeyboardButton(text=" HELP AND COMMANDS ",
+buttons = [[InlineKeyboardButton(text=" 🛸HELP AND COMMANDS🛸 ",
                                   callback_data="help_back"),
 ]]
 
-buttons += [[InlineKeyboardButton(text=" ADD ME TO YOUR GROUP ",
+buttons += [[InlineKeyboardButton(text=" 🚀ADD ME TO YOUR GROUP ",
                                   url="t.me/ELIZABETHTG_bot?startgroup=true"),
 ]]
 
-buttons += [[InlineKeyboardButton(text="🔒 CLOSE THE MENU 🔒",
+buttons += [[InlineKeyboardButton(text="🗂️ CLOSE THE MENU ",
                                   callback_data="close_menu")]]
 
 
 HELP_STRINGS = f"""
-`Hi.. I'm` [ELIZABETH](https://telegra.ph/file/fcbd6c6c16134b806bfe8.jpg)
+`Hi.. I'm` [ELIZABETH](https://telegra.ph/file/5fa80aa6bfdcab178ae47.jpg)
 `Click on the buttons below to get documentation about specific modules..`"""
 
 
@@ -185,12 +185,12 @@ def send_start(update, context):
     chat = update.effective_chat  # type: Optional[Chat]
     first_name = update.effective_user.first_name
     text = PM_START_TEXT
-    buttons = [[InlineKeyboardButton(text="Help and Commands ❓",
+    buttons = [[InlineKeyboardButton(text="🛸Help and Commands🛸",
                                   callback_data="help_back"),
     ]]
              
 
-    buttons += [[InlineKeyboardButton(text="Close the Menu 🔒",
+    buttons += [[InlineKeyboardButton(text="Close the Menu🚫",
                                   callback_data="close_menu")]]
 
 
@@ -213,7 +213,7 @@ def start_stop(update, context):
 
     chat = update.effective_chat  # type: Optional[Chat]
     first_name = update.effective_user.first_name
-    text = "The menu is closed 🔒"
+    text = "The menu is closed 🚫"
     buttons = [[InlineKeyboardButton(text="Reopen Menu 🔓",
                                      callback_data="bot_start")]]
 
