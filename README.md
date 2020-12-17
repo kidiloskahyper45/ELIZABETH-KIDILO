@@ -1,6 +1,6 @@
 # ELIZABETH
-![logo](https://telegra.ph/file/bd72857322159140bec6b.jpg)
-💌 Reach me on Telegram [Elizabeth](https://t.me/Elizabeth_tgbot)
+![logo](https://telegra.ph/file/5fa80aa6bfdcab178ae47.jpg)
+💌 Reach me on Telegram [Elizabeth](https://t.me/Elizabethtg_bot)
 <img src = https://i.pinimg.com/originals/25/d2/54/25d254df236c61306bceb86df5f671f1.gif width = 80 align = "left">
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
