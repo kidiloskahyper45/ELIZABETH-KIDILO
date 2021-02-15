@@ -55,6 +55,15 @@ buttons += [[InlineKeyboardButton(text=" 🚀ADD ME TO YOUR GROUP🚀 ",
 buttons += [[InlineKeyboardButton(text="🗂️ CLOSE THE MENU ",
                                   callback_data="close_menu")]]
 
+buttons += [[InlineKeyboardButton(text="  Source Cod ",
+                                  url="https://t.me/rosebakthan"),
+]]
+
+buttons += [[InlineKeyboardButton(text="  Support Group ",
+                                  url="t.me/"),
+]]
+
+                                  
 
 HELP_STRINGS = f"""
 `Hi.. I'm` [ELIZABETH](https://telegra.ph/file/5fa80aa6bfdcab178ae47.jpg)
